@@ -10,10 +10,15 @@
 }*/
 
 :root {
-    --cor0: #679380;
+    /*--cor0: #679380;
     --cor1: #52CC99;
     --cor2: #317C5D;
-    --cor3: #1E4A37;
+    --cor3: #1E4A37;*/
+    --cor1: #062A42;
+    --cor2: #3979C9;
+    --cor3: #727B80;
+    --cor4: #F9C68D;
+    --cor5: #2b223b;
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-titulo: 'Source Code Pro', monospace;
