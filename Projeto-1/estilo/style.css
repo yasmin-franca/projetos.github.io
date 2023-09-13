@@ -17,9 +17,8 @@
     --cor1: #062A42;
     --cor2: #3979C9;
     --cor3: #727B80;
-    --cor4: #F9C68D;
-    --cor5: #2b223b;
-
+    --cor4: #ffd8ac;
+    
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-titulo: 'Source Code Pro', monospace;
     --fonte-destaque: 'Cormorant', serif;
@@ -27,11 +26,12 @@
 
 
 body {
-    background-color: var(--cor0);
-    font-family: var(--fonte-padrao);
-    background-image: linear-gradient(to top, #48db9e, #6c9181, #1e4a37);
+    /*background-color: #062a42e5;*/
+    background-image: url("/Projeto-1/imagens/planet.jpg.jpg");
+    background-size: cover;
+    background-position: center bottom;
     background-attachment: fixed;
-
+    font-family: var(--fonte-padrao);
 }
 
 a#Insta {
@@ -53,8 +53,8 @@ a#github {
 }
 
 header {
-    min-width: 300px;
-    max-width: 600px;
+    min-width: 500px;
+    max-width: 800px;
     margin: auto;
     background-color: white;
     padding: 15px;
@@ -67,8 +67,8 @@ header h1 {
     font-family: var(--fonte-titulo);
     text-align: center;
     font-size: 2.1em;
-    color: var(--cor3);
-    text-shadow: 1px 2px 3px var(--cor0);
+    color: var(--cor1);
+    text-shadow: 1px 1px 2px var(--cor4);
     background-image: linear-gradient();
 }
 
@@ -77,18 +77,6 @@ header p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     font-style: italic;
-}
-
-header div {
-    width: 100%;
-    text-align: center;
-}
-
-div > img {
-    width: 300px;
-    height: 390px;
-    border-style: double;
-    border-color: var(--cor0);
 }
 
 nav {
@@ -112,13 +100,13 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     color: var(--cor1);
 }
 
 main {
-    min-width: 300px;
-    max-width: 600px;
+    min-width: 500px;
+    max-width: 800px;
     margin: auto;
     margin-top: 3px;
     background-color: white;
@@ -131,7 +119,7 @@ main h2 {
     font-family: var(--fonte-destaque);
     font-size: 1.6em;
     text-indent: 8px;
-    background-image: linear-gradient(to right, #52cc9983, transparent);
+    background-image: linear-gradient(to right, #397ac96f, transparent);
 }
 
 main p {
