@@ -27,7 +27,7 @@
 
 body {
     /*background-color: #062a42e5;*/
-    background-image: url("/Projeto-1/imagens/planet.jpg.jpg");
+    background-image: url('../imagens/planet.jpg.jpg');
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
@@ -35,13 +35,13 @@ body {
 }
 
 a#Insta {
-    content: url('icone\ instagram-48.png.png');
+    content: url('icone instagram-48.png.png');
     width: 30px;
     height: 30px;
 }
 
 a#Face {
-    content: url('icone\ facebook-48.png.png');
+    content: url('icone facebook-48.png.png');
     width: 30px;
     height: 30px;
 }
@@ -69,7 +69,6 @@ header h1 {
     font-size: 2.1em;
     color: var(--cor1);
     text-shadow: 1px 1px 2px var(--cor4);
-    background-image: linear-gradient();
 }
 
 header p {
@@ -119,7 +118,7 @@ main h2 {
     font-family: var(--fonte-destaque);
     font-size: 1.6em;
     text-indent: 8px;
-    background-image: linear-gradient(to right, #397ac96f, transparent);
+    background-image: linear-gradient(to right, #397ac96a, transparent);
 }
 
 main p {
