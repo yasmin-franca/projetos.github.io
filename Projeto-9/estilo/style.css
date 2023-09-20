@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: ;
+    --cor2: ;
+    --cor3: ;
+    --cor4: ;
+
+    --fonte1: ;
+    --fonte2: ;
+    --fonte3: ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
