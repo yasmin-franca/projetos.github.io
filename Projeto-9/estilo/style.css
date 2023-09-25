@@ -1,17 +1,78 @@
 @charset "UTF-8";
 
-:root {
-    --cor1: ;
-    --cor2: ;
-    --cor3: ;
-    --cor4: ;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:wght@700 &family=Raleway&display=swap');
 
-    --fonte1: ;
-    --fonte2: ;
-    --fonte3: ;
+:root {
+    --cor1: #ffffff;
+    --cor2: #676f9d;
+    --cor3: #424769;
+    --cor4: #2d3250;
+    --cor5: #f1b164;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte2: 'Playfair Display', serif;
+    --fonte3: 'Raleway', sans-serif;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-image: url('../imagens/header.jpg');
+    background-position: top center;
+    background-size: 1534px 400px;
+    background-repeat: no-repeat;
+    width: 1534px;
+    height: 400px;
+}
+
+header > h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--fonte3);
+    text-shadow: 3px 4px 1px var(--cor2);
+    padding-top: 90px;
+    font-size: 7.5vh;
+}
+
+main {
+    min-width: 700;
+    position: relative;
+    padding: 15px;
+    background-color: var(--cor1);
+}
+
+section#quemSomos {
+    background-image: url('../imagens/quemSomos.jpg');
+    width: 500px;
+    height: 350px;
+    background-size: 500px 350px;
+    background-position: center center--;
+    margin-left: 170px;
+}
+
+section#quemSomos > div > h2,p {
+    width: 500px;
+    padding-left: 50px;
+    text-align: justify;
+    margin-left: 550px;
+    font-family: var(--fonte-padrao);
+}
+
+section#quemSomos > div > h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+section#quemSomos > div > p {
+    font-size: 2em;
 }
