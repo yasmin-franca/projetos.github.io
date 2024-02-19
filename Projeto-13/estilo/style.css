@@ -9,3 +9,39 @@
     --fonte-padrao: ;
 }
 
+/*Gerais*/
+main#principal{
+    margin-top: 0;
+    padding: 80px 0;
+}
+
+p, h2 {
+    margin: 15px;
+}
+
+p, li {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/*Navbar*/
+
+/*Carrosel*/
+
+/*Main*/
+
+/*Lista*/
+#about-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+#about-list li {
+    line-height: 25px;
+}
+
+#about-list i {
+    color: var();
+    margin-right: 13px;
+}
