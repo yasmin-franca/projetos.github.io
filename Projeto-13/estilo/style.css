@@ -1,47 +1,79 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root {
     --cor-0: ;
     --cor-1: ;
     --cor-2: ;
     --cor-3: ;
 
-    --fonte-padrao: ;
+    --fonte-padrao: "Montserrat", sans-serif;
+    --fonte-titulo: "Titillium Web", sans-serif;
+    --fonte-var: "Playfair Display", serif;
 }
 
-/*Gerais*/
-main#principal{
-    margin-top: 0;
-    padding: 80px 0;
+/*Global*/
+*{
+    padding: 0;
+    margin: 0;
 }
 
-p, h2 {
-    margin: 15px;
+/*Geral*/
+div.img, div.normal, div.accordion {
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-left: 70px;
 }
 
-p, li {
+.accordion-header {
     text-align: justify;
-    font-size: 16px;
+    font-size: 17px;
+    font-family: var(--fonte-padrao);
+}
+
+h2 {
+    margin: 70px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: var(--fonte-var);
+}
+
+p {
+    margin: 70px;
+    font-size: 17px;
+    text-align: justify;
+    font-family: var(--fonte-padrao);
 }
 
 /*Navbar*/
 
 /*Carrosel*/
+h1.tit {
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+    text-align: center;
+    background-color: #00000086;
+    box-shadow: 5px 5px 10px 1px #000000eb;
+}
 
-/*Main*/
-
-/*Lista*/
-#about-list {
-    list-style: none;
-    padding-left: 0;
+/*Tabela*/
+div.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#about-list li {
-    line-height: 25px;
+td {
+    font-size: 17px;
+    font-family: var(--fonte-padrao);
 }
 
-#about-list i {
+td > i {
     color: var();
-    margin-right: 13px;
+    margin-right: 12px;
 }
