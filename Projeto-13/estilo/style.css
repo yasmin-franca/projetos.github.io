@@ -6,9 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-    --cor-0: ;
-    --cor-1: ;
-    --cor-2: ;
+    --cor-0: #ffffff;
+    --cor-1: #57ae00;
+    --cor-2: #3f7d00;
     --cor-3: ;
 
     --fonte-padrao: "Montserrat", sans-serif;
@@ -22,7 +22,7 @@
     margin: 0;
 }
 
-/*Geral*/
+/*Geral + accordion*/
 div.img, div.normal, div.accordion {
     margin-top: 30px;
     margin-right: 70px;
@@ -51,6 +51,7 @@ p {
 
 /*Navbar*/
 
+
 /*Carrosel*/
 h1.tit {
     font-family: var(--fonte-titulo);
@@ -62,10 +63,10 @@ h1.tit {
 
 /*Tabela*/
 div.container{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 37px;
+    padding-right: 37px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 td {
@@ -73,7 +74,27 @@ td {
     font-family: var(--fonte-padrao);
 }
 
-td > i {
-    color: var();
+/*Lista*/
+div.container-list {
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+li {
+    font-size: 17px;
+    font-family: var(--fonte-padrao); 
+}
+
+li > i {
+    color: var(--cor-1);
     margin-right: 12px;
+}
+
+/*Lista Dois*/
+li.list-group-item {
+    list-style: disc;
+    font-size: 17px;
+    font-family: var(--fonte-padrao); 
 }
