@@ -65,6 +65,10 @@ a > i {
     color: var(--cor-2);
 }
 
+a.nav-link {
+    font-family: var(--fonte-titulo);
+}
+
 /*Carrosel*/
 h1.tit {
     margin-bottom: 50px;
