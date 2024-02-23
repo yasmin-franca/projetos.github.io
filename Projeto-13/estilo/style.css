@@ -23,10 +23,13 @@
 }
 
 /*Geral + accordion*/
-div.img, div.normal, div.accordion {
-    margin-top: 30px;
+main {
     margin-right: 70px;
     margin-left: 70px;
+}
+div.img, div.normal, div.accordion {
+    margin-top: 30px;
+    
 }
 
 .accordion-header {
