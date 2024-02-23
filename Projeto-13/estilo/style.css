@@ -150,6 +150,24 @@ li#item {
     font-family: var(--fonte-padrao);
 }
 
+/*Rodapé*/
+footer {
+    padding-top: 2px;
+    background-color: #e2efef;
+}
+
+p#fot{
+    margin: 10px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 15px;
+    background-color: #e2efef;
+}
+
+a#fot {
+
+}
+
 /*Barra de rolagem*/
 ::-webkit-scrollbar {
     width: 18px;
