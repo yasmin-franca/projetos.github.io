@@ -8,8 +8,8 @@
 :root {
     --cor-0: #ffffff;
     --cor-1: #57ae00;
-    --cor-2: #3f7d00;
-    --cor-3: ;
+    --cor-2: #548B58;
+    --cor-3: #3f7d00;
 
     --fonte-padrao: "Montserrat", sans-serif;
     --fonte-titulo: "Titillium Web", sans-serif;
@@ -17,7 +17,7 @@
 }
 
 /*Global*/
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -27,45 +27,59 @@ main {
     margin-right: 70px;
     margin-left: 70px;
 }
-div.img, div.normal, div.accordion {
+
+div.img, div.normal {
     margin-top: 30px;
-    
+
+}
+
+div.accordion {
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
 .accordion-header {
     text-align: justify;
-    font-size: 17px;
+    font-size: 18px;
     font-family: var(--fonte-padrao);
 }
 
 h2 {
     margin: 70px;
     text-align: justify;
-    font-size: 17px;
+    font-size: 18px;
     font-family: var(--fonte-var);
 }
 
 p {
     margin: 70px;
-    font-size: 17px;
+    font-size: 18px;
     text-align: justify;
     font-family: var(--fonte-padrao);
 }
 
 /*Navbar*/
+a > i {
+    font-size: 35px;
+    color: var(--cor-2);
+}
 
 
 /*Carrosel*/
 h1.tit {
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
     font-family: var(--fonte-titulo);
     font-weight: bold;
     text-align: center;
-    background-color: #00000086;
-    box-shadow: 5px 5px 10px 1px #000000eb;
+    background-color: #43870088;
+    box-shadow: 6px 6px 8px 3px #0000008a;
 }
 
 /*Tabela*/
-div.container{
+div.container {
     padding-left: 37px;
     padding-right: 37px;
     margin-top: 10px;
@@ -73,11 +87,11 @@ div.container{
 }
 
 td {
-    font-size: 17px;
+    font-size: 18px;
     font-family: var(--fonte-padrao);
 }
 
-/*Lista*/
+/*Listas*/
 div.container-list {
     padding-left: 65px;
     padding-right: 65px;
@@ -86,8 +100,8 @@ div.container-list {
 }
 
 li {
-    font-size: 17px;
-    font-family: var(--fonte-padrao); 
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
 }
 
 li > i {
@@ -95,9 +109,53 @@ li > i {
     margin-right: 12px;
 }
 
-/*Lista Dois*/
-li.list-group-item {
-    list-style: disc;
-    font-size: 17px;
-    font-family: var(--fonte-padrao); 
+/*Link*/
+a#rece {
+    color: #000000;
+    text-decoration: none;
+}
+
+a#rece:hover {
+    border: 4px solid var(--cor-1);
+    border-radius: 400px 400px 400px 400px;
+    background-color: var(--cor-1);
+    color: var(--cor-0);
+}
+
+p#rece {
+    font-size: 20px;
+}
+
+/*Artigo*/
+article.cor {
+    margin-top: 50px;
+    background-color: var(--cor-2);
+    color: var(--cor-0);
+}
+
+h3 {
+    text-align: justify;
+    font-family: var(--fonte-titulo);
+    padding-top: 25px;
+    margin: 70px;
+}
+
+li#item {
+    color: var(--cor-0);
+    background-color: var(--cor-2);
+    font-size: 14px;
+    font-family: var(--fonte-padrao);
+}
+
+/*Barra de rolagem*/
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--cor-0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor-1);
 }
