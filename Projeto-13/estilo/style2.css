@@ -24,13 +24,12 @@
 
 /*Geral*/
 main {
-    margin-right: 70px;
-    margin-left: 70px;
+    margin: 15px;
 }
 
 h2 {
     padding-top: 70px;
-    margin: 20px 70px 20px 70px;
+    /*margin: 20px 70px 20px 70px;*/
     text-align: justify;
     font-size: 18px;
     font-family: var(--fonte-var);
@@ -38,14 +37,14 @@ h2 {
 
 h3 {
     padding-top: 10px;
-    margin: 70px;
+    /*margin: 70px;*/
     text-align: justify;
     font-size: 17px;
     font-family: var(--fonte-titulo);
 }
 
 h4 {
-    margin: 5px 70px 0 70px;
+    /*margin: 5px 70px 0 70px;*/
     text-align: justify;
     font-size: 16px;
     font-family: var(--fonte-titulo);
@@ -53,7 +52,7 @@ h4 {
 }
 
 p {
-    margin: 70px;
+    /*margin: 70px;*/
     font-size: 18px;
     text-align: justify;
     font-family: var(--fonte-padrao);
@@ -71,8 +70,8 @@ a.nav-link {
 
 /*Listas*/
 div.container-list {
-    padding-left: 65px;
-    padding-right: 65px;
+    /*padding-left: 65px;
+    padding-right: 65px;*/
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -92,6 +91,7 @@ li > i {
 footer {
     padding-top: 2px;
     padding-bottom: 2px;
+    background-color: var(--cor-2);
 }
 
 p#fot{
@@ -99,18 +99,19 @@ p#fot{
     text-align: center;
     font-family: var(--fonte-titulo);
     font-size: 16px;
+    color: #ffffff;
 }
 
 a#fot {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 
 a#fot:hover {
-    border: 4px solid var(--cor-2);
+    border: 4px solid var(--cor-0);
     border-radius: 200px 200px 200px 200px;
-    background-color: var(--cor-2);
-    color: var(--cor-0);
+    background-color: var(--cor-0);
+    color: var(--cor-3);
     text-decoration: underline;
 }
 
