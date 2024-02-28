@@ -104,7 +104,7 @@ p#fot{
 
 a#fot {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a#fot:hover {
