@@ -9,17 +9,27 @@ Desktop: de 992px até 1200px
 Grandes Telas: acima de 1200px
 */
 
-/*Celular*/
-@media screen and (min-width: 600px) and (max-width: 768px) {
-    
-}
-
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
-        
+    main {
+        margin: 0px 50px 0px 50px;
+        height: 100%;
+    }
 }
 
 /*Desktop*/
 @media screen and (min-width: 992px) {
+    main {
+        margin: 0px 190px 0px 190px;
+        height: 100%;
+    }
 
+    article.cor > h3 {
+        margin: 7px 70px 7px 70px;
+    }
+
+    ul#lista-quatro {
+        margin: 0px 70px 0px 70px;
+        padding-bottom: 25px;
+    }
 }
