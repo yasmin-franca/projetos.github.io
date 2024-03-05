@@ -9,11 +9,16 @@ Desktop: de 992px até 1200px
 Grandes Telas: acima de 1200px
 */
 
+
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     main {
         margin: 0px 50px 0px 50px;
         height: 100%;
+    }
+
+    h1.tit {
+        font-size: 40px;
     }
 }
 
@@ -22,6 +27,10 @@ Grandes Telas: acima de 1200px
     main {
         margin: 0px 190px 0px 190px;
         height: 100%;
+    }
+
+    h1.tit {
+        font-size: 45px;
     }
 
     article.cor > h3 {
