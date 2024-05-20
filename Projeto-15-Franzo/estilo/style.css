@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'GothamLight';
+    src: url(../fontes/GothamLight.ttf); format:('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GoldLinesSerifTrial';
+    src: url(../fontes/Gold/Lines/Serif/Trial.otf); format:('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor-0: #cdcac3;
+    --cor-1: #2d2d2d;
+    --cor-2: #68962d;
+    --cor-3: #082888;
+
+    --fonte-padrao: 'GothamLight',sans-serif;
+    --fonte-titulo: 'GoldLinesSerifTrial', serif;
+    --fonte-var: 'Arial', sans-serif;
+}
+
+/*Global*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Logo*/
+#logo {
+    text-align: center;
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+
+/*Barra de navegação-Navbar*/
+li.nav-item {
+    color: var(--cor-1);
+}
+
+a.nav-link{
+    font-family: var(--fonte-padrao);
+    color: var(--cor-1);
+    font-size: 1.5em;
+}
+
+a.nav-link:hover {
+    color: var(--cor-2);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/*Banner*/
+img.col-12{
+    padding: auto;
+    margin: auto;
+}
