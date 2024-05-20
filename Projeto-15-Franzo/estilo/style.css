@@ -61,16 +61,21 @@ img.col-12{
 }
 
 /*Footer*/
+footer {
+    text-align: center;
+    background-color: var(--cor-0);
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
 a#insta {
     content: url('../imagens/instagram-48.png.png');
-    width: 30px;
-    height: 30px;
-    text-align: center;
+    width: 45px;
+    height: 45px;
 }
 
 a#face {
     content: url('../imagens/facebook-48.png.png');
-    width: 30px;
-    height: 30px;
-    text-align: center;
+    width: 45px;
+    height: 45px;
 }
