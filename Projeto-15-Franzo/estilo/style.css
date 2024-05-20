@@ -59,3 +59,18 @@ img.col-12{
     padding: auto;
     margin: auto;
 }
+
+/*Footer*/
+a#insta {
+    content: url('../imagens/instagram-48.png.png');
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+a#face {
+    content: url('../imagens/facebook-48.png.png');
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
